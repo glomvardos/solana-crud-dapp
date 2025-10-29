@@ -5,7 +5,7 @@
  * IDL can be found at `target/idl/solana_crud_dapp.json`.
  */
 export type SolanaCrudDapp = {
-  "address": "JAVuBXeBZqXNtS73azhBDAoYaaAFfo4gWXoZe2e7Jf8H",
+  "address": "FhKYycaAKbcFfXFXyzt2giLx2azkJYSvMe84GgSyB9Pv",
   "metadata": {
     "name": "solanaCrudDapp",
     "version": "0.1.0",

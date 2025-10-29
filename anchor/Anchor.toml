@@ -6,7 +6,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-solana_crud_dapp = "JAVuBXeBZqXNtS73azhBDAoYaaAFfo4gWXoZe2e7Jf8H"
+solana_crud_dapp = "FhKYycaAKbcFfXFXyzt2giLx2azkJYSvMe84GgSyB9Pv"
 
 [registry]
 url = "https://api.apr.dev"

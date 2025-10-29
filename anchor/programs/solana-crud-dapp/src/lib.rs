@@ -6,7 +6,7 @@ pub mod state;
 
 use crate::instructions::*;
 
-declare_id!("JAVuBXeBZqXNtS73azhBDAoYaaAFfo4gWXoZe2e7Jf8H");
+declare_id!("FhKYycaAKbcFfXFXyzt2giLx2azkJYSvMe84GgSyB9Pv");
 
 #[program]
 pub mod solana_crud_dapp {

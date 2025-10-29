@@ -1,9 +1,0 @@
-/Users/glomvardos/Development/solana/solana-crud-dapp/anchor/target/sbpf-solana-solana/release/deps/libsolana_system_interface-522a7048ef7bd95d.rmeta: /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/lib.rs /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/error.rs /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/instruction.rs
-
-/Users/glomvardos/Development/solana/solana-crud-dapp/anchor/target/sbpf-solana-solana/release/deps/libsolana_system_interface-522a7048ef7bd95d.rlib: /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/lib.rs /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/error.rs /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/instruction.rs
-
-/Users/glomvardos/Development/solana/solana-crud-dapp/anchor/target/sbpf-solana-solana/release/deps/solana_system_interface-522a7048ef7bd95d.d: /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/lib.rs /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/error.rs /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/instruction.rs
-
-/Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/lib.rs:
-/Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/error.rs:
-/Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/instruction.rs:
