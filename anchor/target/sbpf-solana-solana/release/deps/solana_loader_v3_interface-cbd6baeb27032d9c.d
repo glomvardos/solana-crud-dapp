@@ -1,0 +1,9 @@
+/Users/glomvardos/Development/solana/solana-crud-dapp/anchor/target/sbpf-solana-solana/release/deps/libsolana_loader_v3_interface-cbd6baeb27032d9c.rmeta: /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v3-interface-5.0.0/src/lib.rs /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v3-interface-5.0.0/src/instruction.rs /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v3-interface-5.0.0/src/state.rs
+
+/Users/glomvardos/Development/solana/solana-crud-dapp/anchor/target/sbpf-solana-solana/release/deps/libsolana_loader_v3_interface-cbd6baeb27032d9c.rlib: /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v3-interface-5.0.0/src/lib.rs /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v3-interface-5.0.0/src/instruction.rs /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v3-interface-5.0.0/src/state.rs
+
+/Users/glomvardos/Development/solana/solana-crud-dapp/anchor/target/sbpf-solana-solana/release/deps/solana_loader_v3_interface-cbd6baeb27032d9c.d: /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v3-interface-5.0.0/src/lib.rs /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v3-interface-5.0.0/src/instruction.rs /Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v3-interface-5.0.0/src/state.rs
+
+/Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v3-interface-5.0.0/src/lib.rs:
+/Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v3-interface-5.0.0/src/instruction.rs:
+/Users/glomvardos/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-loader-v3-interface-5.0.0/src/state.rs:

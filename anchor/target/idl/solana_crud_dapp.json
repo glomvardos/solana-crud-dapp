@@ -1,0 +1,190 @@
+{
+  "address": "FhKYycaAKbcFfXFXyzt2giLx2azkJYSvMe84GgSyB9Pv",
+  "metadata": {
+    "name": "solana_crud_dapp",
+    "version": "0.1.0",
+    "spec": "0.1.0",
+    "description": "Created with Anchor"
+  },
+  "instructions": [
+    {
+      "name": "create_journal",
+      "discriminator": [
+        254,
+        225,
+        80,
+        162,
+        90,
+        16,
+        247,
+        228
+      ],
+      "accounts": [
+        {
+          "name": "signer",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "journal",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "account",
+                "path": "signer"
+              },
+              {
+                "kind": "arg",
+                "path": "title"
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "message",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "delete_journal",
+      "discriminator": [
+        168,
+        71,
+        15,
+        72,
+        240,
+        5,
+        97,
+        90
+      ],
+      "accounts": [
+        {
+          "name": "signer",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "journal",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "account",
+                "path": "signer"
+              },
+              {
+                "kind": "arg",
+                "path": "title"
+              }
+            ]
+          }
+        }
+      ],
+      "args": [
+        {
+          "name": "_title",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "update_journal",
+      "discriminator": [
+        154,
+        82,
+        119,
+        184,
+        104,
+        187,
+        45,
+        83
+      ],
+      "accounts": [
+        {
+          "name": "signer",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "journal",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "account",
+                "path": "signer"
+              },
+              {
+                "kind": "arg",
+                "path": "title"
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "_title",
+          "type": "string"
+        },
+        {
+          "name": "message",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "JournalEntryState",
+      "discriminator": [
+        113,
+        86,
+        110,
+        124,
+        140,
+        14,
+        58,
+        66
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "JournalEntryState",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "owner",
+            "type": "pubkey"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "message",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
