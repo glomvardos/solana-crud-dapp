@@ -11,7 +11,7 @@ export { SolanaCrudDapp, IDL }
 export const SOLANA_CRUD_DAPP_PROGRAM_ID = new PublicKey(IDL.address)
 
 // This is a helper function to get the Basic Anchor program.
-export function getBasicProgram(provider: AnchorProvider, address?: PublicKey): Program<SolanaCrudDapp> {
+export function getSolanaCrudAppProgram(provider: AnchorProvider, address?: PublicKey): Program<SolanaCrudDapp> {
   return new Program({ ...IDL, address: address ? address.toBase58() : IDL.address } as SolanaCrudDapp, provider)
 }
 
